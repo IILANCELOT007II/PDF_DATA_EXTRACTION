@@ -284,7 +284,6 @@ def get_download_link(df, filename):
 def main():
     st.set_page_config(
         page_title="PDF Ship Data Extraction Tool",
-        page_icon="🚢",
         layout="wide"
     )
     
@@ -419,7 +418,7 @@ def main():
         st.info("Please upload an Excel template and PDF files to get started")
         
         st.markdown("""
-        ### 📝 Instructions:
+        ### Instructions:
         1. **Upload Excel Template**: Upload your Excel file with the column headers you want to extract
         2. **Upload PDF Files**: Upload one or more PDF files (preferably named IMO-*.pdf)
         3. **Click Start Extraction**: The tool will process all PDFs and extract the required data
