@@ -1,8 +1,4 @@
 streamlit
 pdfplumber
-re
 pandas
-os
-tempfile
-io
-base64
+openpyxl
